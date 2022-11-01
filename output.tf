@@ -2,15 +2,15 @@
 
 output "arn" {
   description = "ARN of the bucket"
-  value       = module.s3_website.s3_bucket.arn
+  value       = module.s3_website.arn
 }
 
 output "name" {
   description = "Name (id) of the bucket"
-  value       = module.s3_website.s3_bucket.id
+  value       = module.s3_website.id
 }
 
 output "domain" {
   description = "Domain name of the bucket"
-  value       = module.s3_website.s3_bucket.website_domain
+  value       = module.s3_website.website_domain
 }
