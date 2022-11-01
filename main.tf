@@ -1,7 +1,6 @@
 terraform {
   backend "remote" {
     organization = "arkila"
-
     workspaces {
       name = "s3-test"
     }
